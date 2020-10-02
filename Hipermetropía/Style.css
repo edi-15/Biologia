@@ -1,6 +1,9 @@
 body {
     font-family: 'gothambold', sans-serif;
     background-color: green;
+    zoom: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .TituloUno {
@@ -20,7 +23,7 @@ body {
 }
 
 .box-Description {
-    background-color: lightseagreen;
+    background-color: lightblue;
     border-radius: 30px;
     padding: 15px;
     margin: 50px;
@@ -28,14 +31,18 @@ body {
 }
 
 footer {
+    margin-top: 200px;
     background-color: gray;
-    padding: 30px;
-    width: 100%;
     text-align: center;
+    width: 100%;
+    height: 40px;
+    border: 30px solid gray;
     position: relative;
-    border: 0;
     bottom: 0;
-    position: relative;
+    margin: 0;
+    padding: 30px;
+    margin-bottom: 0;
+    margin-top: 50px;
 }
 
 .copyright {
